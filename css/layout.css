@@ -1,0 +1,71 @@
+:root{
+    min-width: 940px;
+}
+
+
+.center-w{
+    width:940px;
+    margin:0 auto;
+}
+
+.hdr-l{
+    float:left;
+    width:584px;
+}
+
+.logo{
+    float:left;
+}
+
+.search{
+    width:336px;
+    float:right;
+    margin-top:17px;
+}
+
+.search-l{
+    float:left;
+}
+
+.searchbtn{
+    float:right;
+}
+
+.hdr-r{
+    float:right;
+}
+.nav-l{
+    float:left;
+}
+.nav-r{
+    float:right;
+}
+
+
+.main-l{
+    float:left;
+}
+.main-r{
+    float:right;
+}
+.right-sidebar{
+    float:right;
+}
+
+/* layout for headers in the central body */
+
+.right-hdr{
+    float:right;
+}
+
+.left-hdr{
+    float:left;
+}
+
+.lower-lhdr{
+    float:left;
+}
+
+.lower-rhdr{
+    float:right;
+}
