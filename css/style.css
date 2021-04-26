@@ -43,12 +43,12 @@
     width:233px;
     font-size:11px;
 }
-.searchbox::before,.search-btn::after,.search-btn::before{
+.searchbox:before,.search-btn:after,.search-btn:before{
     content:"";
     width:6px;
     height:20px;
 }
-.searchbox::before{
+.searchbox:before{
     background-image:url("../images/search-box-left-border.png");
     float:left;
 }
@@ -71,11 +71,11 @@
     float:none;
 }
 
-.search-btn::before{
+.search-btn:before{
     background-image:url("../images/search-btn-left-border.png");
     float:left;
 }
-.search-btn::after{
+.search-btn:after{
     background-image:url("../images/search-btn-right-border.png");
     float:right;
 }
@@ -149,7 +149,6 @@
 }
 .list-items li>a{
 display:inline-block;
-word-wrap: break-word;
 text-decoration:none;
 color:black;
 font-size:11px;
@@ -210,14 +209,14 @@ line-height: 16px;
     display:inline-block;
     padding:13px 0px;
 }
-.right-hdr>.upper-hdr::after{
+.right-hdr>.upper-hdr:after{
     content:"";
     width:11px;
     height:37px;
     background-image: url("../images/big-border-right.png");
     float:right;
 }
-.left-hdr>.upper-hdr::before{
+.left-hdr>.upper-hdr:before{
     content:"";
     width:11px;
     height:37px;
@@ -338,7 +337,7 @@ line-height: 16px;
 .footer li{
     display:inline-block;
 }
-.footer li:not(:last-child)::after{
+.footer li:not(:last-child):after{
     content:"\2022";
     display:inline-block;
     padding:0px 5px;
